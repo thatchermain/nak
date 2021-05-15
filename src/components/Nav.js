@@ -12,19 +12,19 @@ const Nav = () => {
                         <NavLink exact to='/' 
                         activeClassName="selectedLink" 
                         style={{ textDecoration: 'none', color: '#ddd', padding: '1%'  }} className='nav__item' >Strona główna</NavLink>
-                        <NavLink to='/stacja' 
+                        <NavLink exact to='/stacja' 
                         activeClassName="selectedLink" 
                         style={{ textDecoration: 'none', color: '#ddd', padding: '1%'  }} className='nav__item' >Stacja Kontroli</NavLink>
-                        <NavLink to='/klima' 
+                        <NavLink exact to='/klima' 
                         activeClassName="selectedLink" 
                         style={{ textDecoration: 'none', color: '#ddd', padding: '1%' }} className='nav__item' >Klimatyzacja</NavLink>
-                        <NavLink to='/mechanika' 
+                        <NavLink exact to='/mechanika' 
                         activeClassName="selectedLink" 
                         style={{ textDecoration: 'none', color: '#ddd', padding: '1%'  }} className='nav__item' >Mechanika</NavLink>
-                        <NavLink to='/galeria' 
+                        <NavLink exact to='/galeria' 
                         activeClassName="selectedLink" 
                         style={{ textDecoration: 'none', color: '#ddd', padding: '1%'  }} className='nav__item' >Galeria</NavLink>
-                        <NavLink to='/kontakt' 
+                        <NavLink exact to='/kontakt' 
                         activeClassName="selectedLink" 
                         style={{ textDecoration: 'none', color: '#ddd', padding: '1%'  }} className='nav__item' >Kontakt</NavLink>
                     </ul>
