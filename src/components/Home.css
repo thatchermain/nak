@@ -1,0 +1,44 @@
+.Home {
+  width: 100%;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+
+.title__top {
+  font-size: 48px;
+}
+
+.title__span {
+  font-size: 48px;
+  color: #ff4343;
+}
+
+.title__bottom {
+  color: #ddd;
+  margin: 1% auto;
+  font-size: 36px;
+}
