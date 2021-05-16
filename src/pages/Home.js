@@ -3,7 +3,7 @@ import ac from '../images/ac_white.png';
 import repair from '../images/repair_white.png';
 import check from '../images/check_white.png';
 import './Home.css';
-import Card from './Card';
+import Card from '../components/Card';
 
 
 const Home = () => {
@@ -15,16 +15,19 @@ const Home = () => {
             </div>
             <div className='main'>
                 <Card 
+                target='/stacja'
                 title='Stacja kontroli'
                 info='Przeglądy okresowe i nie tylko. '
                 icon={<img className='icon' src={check} width={100} alt="logo"/>}
                 />
                 <Card 
+                target='./klima'
                 title='Klimatyzacja'
                 info='Uzupełnianie czynnika chłodzącego.'
                 icon={<img className='icon' src={ac} width={100} alt="logo"/>}
                 />
                 <Card 
+                target='./mechanika'
                 title='Mechanika'
                 info='Usługi mechaniczne w pełnym zakresie.'
                 icon={<img className='icon' src={repair} width={100} alt="logo"/>}

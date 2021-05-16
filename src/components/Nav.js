@@ -1,31 +1,24 @@
 import React from 'react';
-import logo from '../images/Logo.png';
+import navlinks from '../data/navlinks'
 import './Nav.css';
-import { BrowserRouter as Router, Switch, NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
+
+    const style = { textDecoration: 'none', color: '#ddd', padding: '1%' }
+
     return (
         <div>
             <nav className='nav'>
                 <ul className='nav__list'>
-                    <NavLink exact to='/'
-                        activeClassName="selectedLink"
-                        style={{ textDecoration: 'none', color: '#ddd', padding: '1%' }} className='nav__item' >Strona główna</NavLink>
-                    <NavLink exact to='/stacja'
-                        activeClassName="selectedLink"
-                        style={{ textDecoration: 'none', color: '#ddd', padding: '1%' }} className='nav__item' >Stacja Kontroli</NavLink>
-                    <NavLink exact to='/klima'
-                        activeClassName="selectedLink"
-                        style={{ textDecoration: 'none', color: '#ddd', padding: '1%' }} className='nav__item' >Klimatyzacja</NavLink>
-                    <NavLink exact to='/mechanika'
-                        activeClassName="selectedLink"
-                        style={{ textDecoration: 'none', color: '#ddd', padding: '1%' }} className='nav__item' >Mechanika</NavLink>
-                    <NavLink exact to='/galeria'
-                        activeClassName="selectedLink"
-                        style={{ textDecoration: 'none', color: '#ddd', padding: '1%' }} className='nav__item' >Galeria</NavLink>
-                    <NavLink exact to='/kontakt'
-                        activeClassName="selectedLink"
-                        style={{ textDecoration: 'none', color: '#ddd', padding: '1%' }} className='nav__item' >Kontakt</NavLink>
+                    {navlinks.map((link, idx) =>
+                        <NavLink
+                            key={idx}
+                            exact to={link.path}
+                            activeClassName={link.activeClassName}
+                            style={style} >
+                            {link.title}
+                        </NavLink>)}
                 </ul>
             </nav>
         </div>

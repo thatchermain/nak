@@ -39,18 +39,7 @@
   text-decoration: none;
 }
 
-.nav__item {
-  color: #eee;
-  font-size: 18px;
-  -webkit-transition: color .4s;
-  transition: color .4s;
-}
-
-.nav__item:hover {
-  color: #ff4343;
-}
-
 .selectedLink {
-  background-color: #ff4343;
-  border-radius: 25px;
+  border: 2px solid #8f0a0f;
+  border-radius: 15px;
 }

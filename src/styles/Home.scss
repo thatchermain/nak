@@ -1,3 +1,5 @@
+@import './_variables';
+
 .Home {
     padding: 10% 0;
     width: 100%;
@@ -31,7 +33,7 @@
     }
     &__span{
         font-size: 48px;
-        color: #ff4343;
+        color: $mainColor;
     }
 
     &__bottom {
