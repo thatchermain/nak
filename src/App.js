@@ -12,7 +12,7 @@ import { render } from '@testing-library/react';
 function App() {
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Nav />
       <div className="App">
         <Switch>
