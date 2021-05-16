@@ -1,6 +1,6 @@
 .nav {
+  position: absolute;
   padding: 2% 0;
-  background-color: black;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,7 +43,6 @@
   color: #eee;
   font-size: 18px;
   -webkit-transition: color .4s;
-  transition: color .4s;
   transition: color .4s;
 }
 

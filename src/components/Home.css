@@ -1,6 +1,8 @@
 .Home {
+  padding: 10% 0;
   width: 100%;
-  background-color: black;
+  height: 100vh;
+  background-image: url("../images/bg-75.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

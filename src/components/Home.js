@@ -3,7 +3,7 @@ import ac from '../images/ac_white.png';
 import repair from '../images/repair_white.png';
 import check from '../images/check_white.png';
 import './Home.css';
-import Card from './Card'
+import Card from './Card';
 
 
 const Home = () => {
