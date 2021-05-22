@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/nak/static/css/main.5d7219c6.chunk.css",
-    "main.js": "/nak/static/js/main.b2f45077.chunk.js",
-    "main.js.map": "/nak/static/js/main.b2f45077.chunk.js.map",
+    "main.css": "/nak/static/css/main.177c6611.chunk.css",
+    "main.js": "/nak/static/js/main.3b796853.chunk.js",
+    "main.js.map": "/nak/static/js/main.3b796853.chunk.js.map",
     "runtime-main.js": "/nak/static/js/runtime-main.6e5111b4.js",
     "runtime-main.js.map": "/nak/static/js/runtime-main.6e5111b4.js.map",
     "static/js/2.bbb05a53.chunk.js": "/nak/static/js/2.bbb05a53.chunk.js",
     "static/js/2.bbb05a53.chunk.js.map": "/nak/static/js/2.bbb05a53.chunk.js.map",
     "index.html": "/nak/index.html",
-    "static/css/main.5d7219c6.chunk.css.map": "/nak/static/css/main.5d7219c6.chunk.css.map",
+    "static/css/main.177c6611.chunk.css.map": "/nak/static/css/main.177c6611.chunk.css.map",
     "static/js/2.bbb05a53.chunk.js.LICENSE.txt": "/nak/static/js/2.bbb05a53.chunk.js.LICENSE.txt",
+    "static/media/AirConditioning.css": "/nak/static/media/ac_bg.a55f3841.jpg",
     "static/media/ac_white.36742ef7.png": "/nak/static/media/ac_white.36742ef7.png",
-    "static/media/Home.css": "/nak/static/media/bg-75.83b7c03c.jpg"
+    "static/media/Home.css": "/nak/static/media/station_bg.dbc4312b.jpg",
+    "static/media/Repair.css": "/nak/static/media/mech_bg.d6bfe233.jpg",
+    "static/media/CheckUp.css": "/nak/static/media/station2_bg.8ca9f2c5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6e5111b4.js",
     "static/js/2.bbb05a53.chunk.js",
-    "static/css/main.5d7219c6.chunk.css",
-    "static/js/main.b2f45077.chunk.js"
+    "static/css/main.177c6611.chunk.css",
+    "static/js/main.3b796853.chunk.js"
   ]
 }
