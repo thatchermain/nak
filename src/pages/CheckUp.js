@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './CheckUp.css'
+
 
 export default function CheckUp() {
     return (
-        <div>
-            <h1>checkup</h1>
+        <div className='checkUp'>
+            <h1></h1>
         </div>
     )
 }

@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './AirConditioning.css'
+
 
 export default function AirConditioning() {
     return (
-        <div>
-            <h1>ac</h1>
+        <div className='airConditioning'>
+            <h1></h1>
         </div>
     )
 }
