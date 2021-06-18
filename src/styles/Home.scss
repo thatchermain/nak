@@ -1,8 +1,8 @@
 @import './_variables';
 
 .Home {
-    display: flex;
-    padding: 10% 0;
+    // display: flex;
+    padding: 10% 0 0;
     width: 100%;
     height: 100vh;
     // background-color: black;
@@ -12,11 +12,25 @@
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Lato', sans-serif;
+    overflow: hidden;
 
 }
 
+.name{
+    text-align: center;
+    color: $mainText;
+    &__first{
+        // font-size: 48px;
+        font-size: calc(24px + 100 * ((100vw - 360px) / (1920 - 360)));
+    }
+    &__last{
+        // font-size: 124px;
+        font-size: calc(24px + 100 * ((100vw - 360px) / (1920 - 360)));
+        color: $mainColor;
+    }
+}
+
 .main {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,21 +38,13 @@
     width: 100%;
 }
 
+
 .title {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 5% auto 0;
-    // width: 50%;
-    &__top {
-        font-size: 48px;
-        font-size: calc(24px + 100 * ((100vw - 360px) / (1920 - 360)));
-    }
-    &__span {
-        font-size: 124px;
-        font-size: calc(24px + 100 * ((100vw - 360px) / (1920 - 360)));
-        color: $mainColor;
-    }
+    width: 40%;
     &__bottom {
         margin: 1% auto;
         font-size: 36px;
@@ -49,10 +55,11 @@
         
     }
     &__service{
-        // display: flex;
+        width: 100%;
         align-items: center;
         padding: 5% 0;
-        font-size: calc(16px + 20 * ((100vw - 360px) / (1920 - 360)));
+        font-size: calc(16px + 14 * ((100vw - 360px) / (1920 - 360)));
+        text-align-last: left;
         &::after{
             content: '';
             display: block;
@@ -71,14 +78,13 @@
     // width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 5% 0;
-    margin: 15% auto 0;
+    justify-content: space-between;
+    // padding: 5% 0;
+    margin: 5% auto 0;
     font-size: 36px;
     font-size: calc(16px + 20 * ((100vw - 360px) / (1920 - 360)));
-    text-align: right;
-
-
+    
+    
     &__span{
         color: $mainColor;
     }

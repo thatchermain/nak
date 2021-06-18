@@ -10,9 +10,11 @@ import Card from '../components/Card';
 const Home = () => {
     return (
         <div className='Home'>
+            <div className="name">
+                <h1 className='name__first'>Jan <span className='name__last'>NOSEK</span></h1>
+            </div>
             <div className="main">
                 <div className="title">
-                    <h1 className='title__top'>Jan <span className='title__span'>NOSEK</span></h1>
                     <div className="title__services">
                         <h3 className='title__service'><img className='title__icon' src={wrench} alt="" />Stacja kontroli pojazdów</h3>
                         <h3 className='title__service'><img className='title__icon' src={wrench} alt="" />Klimatyzacja</h3>
