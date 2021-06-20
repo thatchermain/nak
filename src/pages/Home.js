@@ -1,5 +1,5 @@
 import React from 'react';
-import wrench from '../images/wrench.png';
+// import wrench from '../images/wrench.png';
 import './Home.css';
 import Typical from 'react-typical';
 

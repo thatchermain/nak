@@ -10,7 +10,7 @@ export default function AirConditioning() {
             <ul className='airCond__list'>
                 {airConditionServices.map(item => {
                     return(
-                        <li className='airCond__item'><i class="fas fa-angle-right"></i>{item}</li>
+                        <li className='airCond__item'>❄️ {item}</li>
                     )
                     
                 })}

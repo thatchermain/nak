@@ -1,10 +1,19 @@
 import React from 'react';
-import './Repair.css'
+import './Repair.css';
+import repairServices from '../data/repairServices'
 
 export default function Repair() {
     return (
         <div className='repair'>
-            <h1></h1>
+            <h1 className='repair__title'>Wykonujemy następujące usługi:</h1>
+            <ul className='repair__list'>
+                {repairServices.map(item => {
+                    return(
+                        <li className='repair__item'>🔧 {item}</li>
+                    )
+                    
+                })}
+            </ul>
         </div>
     )
 }

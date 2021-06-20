@@ -18,7 +18,7 @@ export default function CheckUp() {
                             <ul className='services__list'>
                                 {checkup.info.map(inf => {
                                     return (
-                                        <li className='services__item'><i class="fas fa-angle-right"></i>{inf}</li>
+                                        <li className='services__item'>📋 {inf}</li>
                                     )
                                 })}
                             </ul>
