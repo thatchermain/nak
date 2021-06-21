@@ -3,7 +3,7 @@ import airConditionServices from '../data/airConditionServices'
 import './AirConditioning.css'
 
 
-export default function AirConditioning() {
+const AirConditioning = () => {
     return (
         <div className='airCond'>
             <h1 className='airCond__title'>Wykonujemy następujące usługi:</h1>
@@ -18,3 +18,6 @@ export default function AirConditioning() {
         </div>
     )
 }
+
+
+export default AirConditioning;

@@ -5,7 +5,7 @@ import './CheckUp.css';
 import checkups from '../data/checkUps';
 
 
-export default function CheckUp() {
+const CheckUp = () => {
 
 
     return (
@@ -32,3 +32,6 @@ export default function CheckUp() {
         </div>
     )
 }
+
+
+export default CheckUp;

@@ -1,0 +1,16 @@
+@import './variables';
+
+.gallery {
+    padding: 10% 0;
+    height: 100vh;
+    // background-image: url("../images/mech_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    color: $mainText;
+
+    &__title{
+        padding-bottom: 2% ;
+    }
+}

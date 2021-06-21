@@ -2,7 +2,7 @@ import React from 'react';
 import './Repair.css';
 import repairServices from '../data/repairServices'
 
-export default function Repair() {
+const Repair = () => {
     return (
         <div className='repair'>
             <h1 className='repair__title'>Wykonujemy następujące usługi:</h1>
@@ -17,3 +17,5 @@ export default function Repair() {
         </div>
     )
 }
+
+export default Repair;
