@@ -19,7 +19,7 @@ const Navbar = ({toggle}) => {
                 <Sidebar/>
                 <NavMenu>
                     <NavItem>
-                        <StyledLink exact to='/checkup' activeClassName='any'>Stacja kontroli</StyledLink>
+                        <StyledLink exact to='/diagnosis' activeClassName='any'>Stacja kontroli</StyledLink>
                     </NavItem>
                     <NavItem>
                         <StyledLink exact to='/ac' activeClassName='selected'>Klimatyzacja</StyledLink>
@@ -41,17 +41,3 @@ const Navbar = ({toggle}) => {
 }
 
 export default Navbar;
-
-
-
-
-{/* <ul className='nav__list'>
-                    {navlinks.map((link, idx) =>
-                        <StyledLink
-                            key={idx}
-                            exact to={link.path}
-                            activeClassName={link.activeClassName}
-                            style={style} >
-                            {link.title}
-                        </StyledLink>)}
-                </ul> */}

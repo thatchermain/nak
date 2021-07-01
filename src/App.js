@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
-import CheckUp from './pages/CheckUp';
+import Diagnosis from './pages/Diagnosis';
 // import AirConditioning from './pages/AirConditioning';
 // import Repair from './pages/Repair';
 // import Gallery from './pages/Gallery';
@@ -27,7 +27,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home}></Route>
           <Route exact path='/home' component={Home}></Route>
-          <Route exact path='/checkup' component={CheckUp}></Route>
+          <Route exact path='/diagnosis' component={Diagnosis}></Route>
           {/* <Route exact path='/klima' component={AirConditioning}></Route>
           <Route exact path='/mechanika' component={Repair}></Route>
           <Route exact path='/galeria' component={Gallery}></Route>

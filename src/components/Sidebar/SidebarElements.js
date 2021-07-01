@@ -1,12 +1,13 @@
 import styled from 'styled-components';
+import mainColor from '../../data/StyledVariables';
 import { NavLink} from 'react-router-dom';
-import { FaBars } from "react-icons/fa";
 
 
 export const SidebarContainer = styled.div`
     display: none;
 
     @media screen and (max-width: 768px){
+        text-align: center;
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -49,7 +50,7 @@ export const NavItem = styled.li`
     height: 100%;
     transition: all .2s ease-out;
     &:hover{
-        background-color: #aa2527;
+        background-color: ${mainColor};
         transition: all .3s ease-out;
     }
 `;
@@ -63,7 +64,7 @@ export const StyledLink = styled(NavLink)`
     opacity: 1;
 
     &.${props => props.activeClassName} {
-        color: #aa2527;
+        color: ${mainColor};
         transition: all .4s ease-out;
   }
 `;

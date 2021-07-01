@@ -1,16 +1,12 @@
 import React from 'react';
-import { SidebarContainer, SidebarMenu, SidebarIcon, NavItem, StyledLink } from './SidebarElements';
-import { FaBars } from "react-icons/fa";
+import { SidebarContainer, SidebarMenu, NavItem, StyledLink } from './SidebarElements';
 
 const Sidebar = ({isOpen, toggle}) => {
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
-            {/* <SidebarIcon onClick={toggle}>
-                {FaBars}
-            </SidebarIcon> */}
             <SidebarMenu>
                 <NavItem>
-                    <StyledLink exact to='/checkup'
+                    <StyledLink exact to='/diagnosis'
                         activeClassName='any'>
                         Stacja kontroli
                     </StyledLink>
