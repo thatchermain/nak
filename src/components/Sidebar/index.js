@@ -12,13 +12,13 @@ const Sidebar = ({isOpen, toggle}) => {
                     </StyledLink>
                 </NavItem>
                 <NavItem>
-                    <StyledLink exact to='/ac'
+                    <StyledLink exact to='/airCondition'
                         activeClassName='selected'>
                         Klimatyzacja
                     </StyledLink>
                 </NavItem>
                 <NavItem>
-                    <StyledLink exact to='/mech'
+                    <StyledLink exact to='/repair'
                         activeClassName='selected'>
                         Mechanika
                     </StyledLink>

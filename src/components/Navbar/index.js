@@ -22,10 +22,10 @@ const Navbar = ({toggle}) => {
                         <StyledLink exact to='/diagnosis' activeClassName='any'>Stacja kontroli</StyledLink>
                     </NavItem>
                     <NavItem>
-                        <StyledLink exact to='/ac' activeClassName='selected'>Klimatyzacja</StyledLink>
+                        <StyledLink exact to='/airCondition' activeClassName='selected'>Klimatyzacja</StyledLink>
                     </NavItem>
                     <NavItem>
-                        <StyledLink exact to='/mech' activeClassName='selected'>Mechanika</StyledLink>
+                        <StyledLink exact to='/repair' activeClassName='selected'>Mechanika</StyledLink>
                     </NavItem>
                     <NavItem>
                         <StyledLink exact to='/gallery' activeClassName='selected'>Galeria</StyledLink>

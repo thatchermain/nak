@@ -3,7 +3,6 @@ import checkUps from '../../data/checkUps';
 import {CheckUpContainer, CheckUpsWrapper, StyledUl, StyledLi,CheckIcon, StyledH5} from './CheckUpElements';
 import Heading from '../Heading/Heading';
 
-
 const CheckUp = () => {
     return (
         <CheckUpContainer>

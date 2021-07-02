@@ -1,5 +1,5 @@
 const checkUps = {
-    title: 'Badania techniczne',
+    title: 'Badania Techniczne',
     info: [
         'stan układu hamulcowego',
         'światła i wyposażenie elektryczne',
