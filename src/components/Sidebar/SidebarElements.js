@@ -10,7 +10,7 @@ export const SidebarContainer = styled.div`
         text-align: center;
         position: fixed;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -23,7 +23,7 @@ export const SidebarContainer = styled.div`
 
 export const SidebarMenu = styled.ul`
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(5, 1fr);

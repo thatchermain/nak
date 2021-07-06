@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import Diagnosis from './pages/Diagnosis';
 import AirCondition from './pages/AirCondition';
 import Repair from './pages/Repair';
-// import Gallery from './pages/Gallery';
+import Gallery from './pages/Gallery';
 // import Contact from './pages/Contact';
 
 
@@ -30,8 +30,8 @@ function App() {
           <Route exact path='/diagnosis' component={Diagnosis}></Route>
           <Route exact path='/airCondition' component={AirCondition}></Route>
           <Route exact path='/repair' component={Repair}></Route>
-          {/* <Route exact path='/galeria' component={Gallery}></Route>
-          <Route exact path='/kontakt' component={Contact}></Route>          */}
+          <Route exact path='/gallery' component={Gallery}></Route>
+          {/* <Route exact path='/kontakt' component={Contact}></Route>          */}
         </Switch>         
       </div>
     </Router>      

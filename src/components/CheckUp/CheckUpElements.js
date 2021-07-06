@@ -29,8 +29,8 @@ export const StyledUl = styled.ul `
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-gap: clamp(0.1rem,0.1vw,1rem) ;
-    grid-template-columns: repeat(auto-fit, minmax(auto, 400px));
+    grid-gap: clamp(0.2rem,0.2vw,2rem) ;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 500px));
     grid-template-rows: max-content;
 `;
 
@@ -40,7 +40,7 @@ export const StyledLi = styled.li `
     color: #eee;
     text-transform: capitalize;
     align-items: center;
-    font-size: 20px;
+    font-size: 22px;
 `;
 
 export const CheckIcon = styled(FaCheck)`

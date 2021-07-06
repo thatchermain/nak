@@ -31,7 +31,7 @@ export const StyledUl = styled.ul`
     justify-content: center;
     align-items: center;
     grid-gap: clamp(0.1rem,0.1vw,1rem) ;
-    grid-template-columns: repeat(auto-fit, minmax(auto, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(auto, 500px));
     grid-template-rows: max-content;
 `;
 

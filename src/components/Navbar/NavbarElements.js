@@ -58,13 +58,23 @@ export const NavMenu = styled.ul`
 
 `;
 export const StyledLogo = styled.img`
-    width: 100%;
+    width: 80%;
     margin-left: 1vw;
+    transition: all .3s ease-out;
+    &:hover{
+        transform:scale(1.15);
+    }
 `;
 
 export const NavItem = styled.li`
     cursor: pointer; 
     font-size: 20px;
+    transition: transform .3s ease-out;
+    
+    &:hover{
+        transform:scale(1.15);
+    }
+    
 `;
 
 export const StyledLink = styled(NavLink)`
@@ -75,10 +85,12 @@ export const StyledLink = styled(NavLink)`
     transition: all .3s ease-out;
     border: 1px solid black;
     border-radius: 10px;
+    
 
     &.${props => props.activeClassName} {
         transition: all .4s ease-out;
         border: 1px solid ${mainColor};
         border-radius: 10px;
   }
+
 `;
