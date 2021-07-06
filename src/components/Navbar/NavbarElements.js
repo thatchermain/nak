@@ -57,6 +57,10 @@ export const NavMenu = styled.ul`
     }
 
 `;
+export const StyledLogo = styled.img`
+    width: 100%;
+    margin-left: 1vw;
+`;
 
 export const NavItem = styled.li`
     cursor: pointer; 

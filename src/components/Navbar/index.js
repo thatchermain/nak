@@ -1,7 +1,8 @@
 import React from 'react';
-import { NavbarContainer, NavLogo, NavMobileIcon, NavMenu, NavItem, StyledLink } from './NavbarElements';
+import { NavbarContainer, NavLogo, NavMobileIcon, NavMenu, NavItem, StyledLink,StyledLogo } from './NavbarElements';
 import { FaBars } from "react-icons/fa";
-import Sidebar from '../Sidebar'
+import logo from '../../images/JN-logo2.png'
+import Sidebar from '../Sidebar';
 
 const Navbar = ({toggle}) => {
 
@@ -10,9 +11,9 @@ const Navbar = ({toggle}) => {
     return (
         <>
             <NavbarContainer>
-                <NavLogo>
-                    <StyledLink exact to='/home'>J N</StyledLink>
-                </NavLogo>
+                {/* <NavLogo> */}
+                    <StyledLink exact to='/home'><StyledLogo src={logo}/></StyledLink>
+                {/* </NavLogo> */}
                 <NavMobileIcon onClick={toggle}>
                     {FaBars}
                 </NavMobileIcon>

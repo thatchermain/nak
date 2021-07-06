@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import mainColor from '../../data/StyledVariables';
 import diag1 from '../../images/altbg/diag1.jpg';
-import {FaCheck} from 'react-icons/fa';
+import {FaSnowflake} from 'react-icons/fa';
 
 
 
@@ -44,7 +44,7 @@ export const StyledLi = styled.li`
     font-size: 20px;
 `;
 
-export const AcIcon = styled(FaCheck)`
+export const AcIcon = styled(FaSnowflake)`
     color: ${mainColor};
     font-size: 30px;
     margin-right: 1rem;
