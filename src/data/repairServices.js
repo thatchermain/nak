@@ -1,4 +1,6 @@
-const repairServices = [
+const repairServices = {
+    title: 'MECHANIKA POJAZDOWA',
+    info: [
     'wymiana olejów silnikowych i przekładniowych',
     'wymiana filtrów',
     'wymiana świec zapłonowych i żarowych', 
@@ -10,6 +12,7 @@ const repairServices = [
     'wymiana elementów układów wydechowych',
     'wymiana elementów zawieszenia',
     'wymiana elementów układów kierowniczych'
-];
+]
+};
 
 module.exports = repairServices;

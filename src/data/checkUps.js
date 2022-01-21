@@ -1,50 +1,20 @@
-const checkUps = [
+const checkUps = {
+    title: 'Badania Techniczne',
+    info: [
+        'stan układu hamulcowego',
+        'światła i wyposażenie elektryczne',
+        'układ kierowniczy i zawieszenie',
+        'stan amortyzatorów',
+        'stan ogumienia, karoserii i szyb',
+        'emisja spalin',
+        'ewentualne wycieki płynów',
+        'podwozie i elementy przymocowane',
+        'ciśnienie powietrza w oponach',
+        'elementy zabezpieczenia pasażerów',
+        'głośność układu wydechowego',
+        'światła i wyposażenie elektryczne',
+    ]
 
-    {
-        title: 'Okresowe badania techniczne',
-        info: [
-            'stan układu hamulcowego',
-            'światła i wyposażenie elektryczne',
-            'układ kierowniczy i zawieszenie',
-            'stan amortyzatorów',
-            'stan ogumienia, karoserii i szyb',
-            'emisja spalin i głośność układu wydechowego',
-            'ewentualne wycieki płynów',
-            'podwozie i elementy do niego przymocowane',
-            'ciśnienie powietrza w oponach',
-            'elementy zabezpieczenia pasażerów'
-          ]
-
-    },
-
-
-    {
-        title: 'Pierwsze badania techniczne',
-        info: [
-            'stan układu hamulcowego',
-            'światła i wyposażenie elektryczne',
-            'układ kierowniczy i zawieszenie',
-            'stan amortyzatorów',
-            'stan ogumienia, karoserii i szyb',
-
-          ]
-    },
-
-
-    {
-        title: 'Dodatkowe badania techniczne',
-        info: [
-            'stan układu hamulcowego',
-            'światła i wyposażenie elektryczne',
-            'układ kierowniczy i zawieszenie',
-            'stan amortyzatorów',
-            'stan ogumienia, karoserii i szyb',
-            'emisja spalin i głośność układu wydechowego',
-            'ewentualne wycieki płynów',
-
-          ]
-    },
-
-]
+}
 
 module.exports = checkUps;
